@@ -1,0 +1,130 @@
+    body {
+      background-color: #c3e6f9;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 50rem; /* Set the maximum width of the container in rems */
+      margin: 0 auto;
+      padding: 1.25rem; /* Set padding in rems */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      display: grid;
+      grid-template-columns:1fr 1fr;
+      grid-gap: 2rem 2rem; /* Set the grid gap in rems */
+      background-color: #f1f9fe;
+    }
+
+
+    .profile {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .profile img {
+      width: 10rem;
+      height: 10rem;
+      border-radius: 50%;
+    }
+    .personal-info{
+      background-color: #aadaf9;
+    }
+
+    .section {
+      margin-top: 2rem;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+    }
+
+    h2 {
+      margin-bottom: 1rem;
+      margin-left: 1rem;
+    }
+
+    .section p {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      margin-left: 1rem;
+    }
+
+    .contact {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact .icon {
+      margin-right: 0.5rem;
+    }
+
+    .education {
+      margin-top: 2rem;
+    }
+
+    .education .item {
+      margin-bottom: 1rem;
+    }
+
+    .projects {
+      margin-top: 2rem;
+    }
+
+    .projects .item {
+      margin-bottom: 1rem;
+    }
+
+    .volunteer {
+      margin-top: 2rem;
+    }
+
+    .volunteer .item {
+      margin-bottom: 1rem;
+    }
+
+    .skills {
+      margin-top: 2rem;
+    }
+
+    .skills ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skills li {
+      display: inline-block;
+      margin-right: 0.5rem;
+    }
+
+    .honors {
+      margin-top: 2rem;
+    }
+
+    .honors ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .honors li {
+      margin-bottom: 0.5rem;
+    }
+
+    .references {
+      margin-top: 2rem;
+    }
+
+    .references ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .references li {
+      margin-bottom: 0.5rem;
+    }
